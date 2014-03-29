@@ -1,0 +1,20 @@
+{
+  "name": "node-cooperhewitt",
+  "version": "0.0.1",
+  "description": "a little node module to talk to the cooper-hewitt api",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cooperhewitt/node-cooperhewitt"
+  },
+  "author": "Micah Walter",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/cooperhewitt/node-cooperhewitt/issues"
+  },
+  "homepage": "https://github.com/cooperhewitt/node-cooperhewitt",
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "chai": "~1.9.1"
+  }
+}
