@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git://github.com/cooperhewitt/node-cooperhewitt"
   },
-  "author": "Micah Walter",
+  "author": "Micah Walter & Aaron Cope",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/cooperhewitt/node-cooperhewitt/issues"

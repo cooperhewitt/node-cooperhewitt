@@ -68,8 +68,6 @@ module.exports = {
 		});
 		
 		req.write(body);
-		req.end();
-		
-		// return String('Hello node module');
+		req.end();		
 	}
 };
