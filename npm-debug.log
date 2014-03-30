@@ -1,0 +1,126 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/micah/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/tmp.tgz
+12 verbose folder .
+13 info prepublish node-cooperhewitt@0.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/micah/.npm/1f1177db-tar.lock
+16 silly lockFile ad87e05b-5586-0-27472871798090637-tmp-tgz tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/tmp.tgz
+17 verbose lock tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/tmp.tgz /Users/micah/.npm/ad87e05b-5586-0-27472871798090637-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile ad87e05b-5586-0-27472871798090637-tmp-tgz tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/tmp.tgz
+21 silly lockFile ad87e05b-5586-0-27472871798090637-tmp-tgz tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/tmp.tgz
+22 verbose tar unpack /var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/tmp.tgz
+23 silly lockFile 85c8fda7-5586-0-27472871798090637-package tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/package
+24 verbose lock tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/package /Users/micah/.npm/85c8fda7-5586-0-27472871798090637-package.lock
+25 silly lockFile ad87e05b-5586-0-27472871798090637-tmp-tgz tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/tmp.tgz
+26 verbose lock tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/tmp.tgz /Users/micah/.npm/ad87e05b-5586-0-27472871798090637-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry index.js
+32 silly lockFile 85c8fda7-5586-0-27472871798090637-package tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/package
+33 silly lockFile 85c8fda7-5586-0-27472871798090637-package tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/package
+34 silly lockFile ad87e05b-5586-0-27472871798090637-tmp-tgz tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/tmp.tgz
+35 silly lockFile ad87e05b-5586-0-27472871798090637-tmp-tgz tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/tmp.tgz
+36 verbose tar pack [ '/Users/micah/.npm/node-cooperhewitt/0.0.1/package.tgz',
+36 verbose tar pack   '/var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/package' ]
+37 verbose tarball /Users/micah/.npm/node-cooperhewitt/0.0.1/package.tgz
+38 verbose folder /var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/package
+39 silly lockFile 85c8fda7-5586-0-27472871798090637-package tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/package
+40 verbose lock tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/package /Users/micah/.npm/85c8fda7-5586-0-27472871798090637-package.lock
+41 silly lockFile 8e461485-e-cooperhewitt-0-0-1-package-tgz tar:///Users/micah/.npm/node-cooperhewitt/0.0.1/package.tgz
+42 verbose lock tar:///Users/micah/.npm/node-cooperhewitt/0.0.1/package.tgz /Users/micah/.npm/8e461485-e-cooperhewitt-0-0-1-package-tgz.lock
+43 silly lockFile 85c8fda7-5586-0-27472871798090637-package tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/package
+44 silly lockFile 85c8fda7-5586-0-27472871798090637-package tar:///var/folders/sg/w1ry4qwx18v6631g6wpwy44h0000gn/T/npm-56502-EuJQrHrm/1396137775586-0.27472871798090637/package
+45 silly lockFile 8e461485-e-cooperhewitt-0-0-1-package-tgz tar:///Users/micah/.npm/node-cooperhewitt/0.0.1/package.tgz
+46 silly lockFile 8e461485-e-cooperhewitt-0-0-1-package-tgz tar:///Users/micah/.npm/node-cooperhewitt/0.0.1/package.tgz
+47 silly lockFile 4fd20de3--node-cooperhewitt-0-0-1-package /Users/micah/.npm/node-cooperhewitt/0.0.1/package
+48 verbose lock /Users/micah/.npm/node-cooperhewitt/0.0.1/package /Users/micah/.npm/4fd20de3--node-cooperhewitt-0-0-1-package.lock
+49 silly lockFile 4fd20de3--node-cooperhewitt-0-0-1-package /Users/micah/.npm/node-cooperhewitt/0.0.1/package
+50 silly lockFile 4fd20de3--node-cooperhewitt-0-0-1-package /Users/micah/.npm/node-cooperhewitt/0.0.1/package
+51 verbose tar unpack /Users/micah/.npm/node-cooperhewitt/0.0.1/package.tgz
+52 silly lockFile d1ab8d80--node-cooperhewitt-0-0-1-package tar:///Users/micah/.npm/node-cooperhewitt/0.0.1/package
+53 verbose lock tar:///Users/micah/.npm/node-cooperhewitt/0.0.1/package /Users/micah/.npm/d1ab8d80--node-cooperhewitt-0-0-1-package.lock
+54 silly lockFile 8e461485-e-cooperhewitt-0-0-1-package-tgz tar:///Users/micah/.npm/node-cooperhewitt/0.0.1/package.tgz
+55 verbose lock tar:///Users/micah/.npm/node-cooperhewitt/0.0.1/package.tgz /Users/micah/.npm/8e461485-e-cooperhewitt-0-0-1-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry .npmignore
+59 silly gunzTarPerm extractEntry README.md
+60 silly gunzTarPerm extractEntry index.js
+61 silly lockFile d1ab8d80--node-cooperhewitt-0-0-1-package tar:///Users/micah/.npm/node-cooperhewitt/0.0.1/package
+62 silly lockFile d1ab8d80--node-cooperhewitt-0-0-1-package tar:///Users/micah/.npm/node-cooperhewitt/0.0.1/package
+63 silly lockFile 8e461485-e-cooperhewitt-0-0-1-package-tgz tar:///Users/micah/.npm/node-cooperhewitt/0.0.1/package.tgz
+64 silly lockFile 8e461485-e-cooperhewitt-0-0-1-package-tgz tar:///Users/micah/.npm/node-cooperhewitt/0.0.1/package.tgz
+65 verbose chmod /Users/micah/.npm/node-cooperhewitt/0.0.1/package.tgz 644
+66 verbose chown /Users/micah/.npm/node-cooperhewitt/0.0.1/package.tgz [ 501, 20 ]
+67 silly lockFile 3a52ce78- .
+68 silly lockFile 3a52ce78- .
+69 silly publish { name: 'node-cooperhewitt',
+69 silly publish   version: '0.0.1',
+69 silly publish   description: 'a little node module to talk to the cooper-hewitt api',
+69 silly publish   main: 'index.js',
+69 silly publish   repository:
+69 silly publish    { type: 'git',
+69 silly publish      url: 'git://github.com/cooperhewitt/node-cooperhewitt' },
+69 silly publish   author: { name: 'Micah Walter' },
+69 silly publish   license: 'BSD-2-Clause',
+69 silly publish   bugs: { url: 'https://github.com/cooperhewitt/node-cooperhewitt/issues' },
+69 silly publish   homepage: 'https://github.com/cooperhewitt/node-cooperhewitt',
+69 silly publish   devDependencies: { mocha: '~1.18.2', chai: '~1.9.1' },
+69 silly publish   readme: 'node-cooperhewitt\n=================\n\nA little node module to call into the [cooperhewitt api](http://collection.cooperhewitt.org/api)\n\nYou can get a API TOKEN pretty easily [right here](https://collection.cooperhewitt.org/api/oauth2/authenticate/like-magic/).\n\nTo install it, just do this:\n\n    $ npm install node-cooperhewitt\n\nAnd then in your project somewhere, do something like this:\n\n    var cooperhewitt = require(\'node-cooperhewitt\')\n    \n    var api_token = \'<YOUR API TOKEN>\';\n    \n    var method = \'cooperhewitt.objects.getRandom\';\n    var args = {\'access_token\': api_token};\n          \n    cooperhewitt.call(method, args, function(rsp){   \n\t    console.log(rsp);  \n    });',
+69 silly publish   readmeFilename: 'README.md',
+69 silly publish   _id: 'node-cooperhewitt@0.0.1',
+69 silly publish   dist: { shasum: '2bbc10aa2c95579b7ec01623760089056ffd7a9a' },
+69 silly publish   _from: '.' }
+70 verbose url raw node-cooperhewitt
+71 verbose url resolving [ 'https://registry.npmjs.org/', './node-cooperhewitt' ]
+72 verbose url resolved https://registry.npmjs.org/node-cooperhewitt
+73 info trying registry request attempt 1 at 20:02:55
+74 http PUT https://registry.npmjs.org/node-cooperhewitt
+75 http 201 https://registry.npmjs.org/node-cooperhewitt
+76 verbose url raw node-cooperhewitt
+77 verbose url resolving [ 'https://registry.npmjs.org/', './node-cooperhewitt' ]
+78 verbose url resolved https://registry.npmjs.org/node-cooperhewitt
+79 info trying registry request attempt 1 at 20:02:57
+80 http GET https://registry.npmjs.org/node-cooperhewitt
+81 http 200 https://registry.npmjs.org/node-cooperhewitt
+82 error publish fail Cannot publish over existing version.
+82 error publish fail Update the 'version' field in package.json and try again.
+82 error publish fail
+82 error publish fail If the previous version was published in error, see:
+82 error publish fail     npm help unpublish
+82 error publish fail
+82 error publish fail To automatically increment version numbers, see:
+82 error publish fail     npm help version
+83 error System Darwin 13.1.0
+84 error command "node" "/usr/local/bin/npm" "publish"
+85 error cwd /Users/micah/Desktop/node-cooperhewitt
+86 error node -v v0.10.22
+87 error npm -v 1.3.14
+88 error code EPUBLISHCONFLICT
+89 verbose exit [ 1, true ]

@@ -1,6 +1,6 @@
 {
   "name": "node-cooperhewitt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a little node module to talk to the cooper-hewitt api",
   "main": "index.js",
   "repository": {
